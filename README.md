@@ -1,6 +1,6 @@
 # SnnaiFileTransfer
 
-A personal project where this web app can send file via localhost. 
+A personal project where this web app can send file via localhost. I did got a lots of helps from AI too.
 
 ## Update in the future?
 
