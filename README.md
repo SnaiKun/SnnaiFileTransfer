@@ -17,3 +17,8 @@ A personal project where this web app can send file via localhost. I did got a l
 
 
 ![alt text](https://github.com/SnaiKun/SnnaiFileTransfer/blob/main/UI.png?raw=true)
+
+## To run it (different terminal for each):
+
+1. node server.js (start the localhost server)
+2. npm start (launch the web app)
