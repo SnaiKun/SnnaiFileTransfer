@@ -1,0 +1,89 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #4a90e2, #8e44ad);
+    color: white;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Header */
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+/* IP Address Display */
+#ipDisplay {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #dcdcdc;
+}
+
+/* File Input */
+#fileInput {
+    margin: 20px 0;
+    padding: 10px;
+    border: 2px solid #4a90e2;
+    border-radius: 5px;
+    background: #ffffff;
+    color: #4a90e2;
+    font-size: 1em;
+}
+
+/* Send Button */
+#sendButton {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #ffffff;
+    background: #8e44ad;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#sendButton:hover {
+    background: #6c3483;
+}
+
+/* QR Code Section */
+#qrcode {
+    margin: 20px auto;
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+#fileUrl {
+    color: #dcdcdc;
+    font-size: 0.9em;
+    margin-top: 10px;
+    word-break: break-word;
+}
+
+/* Manual Access Section */
+p {
+    margin: 10px 0;
+}
+
+p#status {
+    color: #ff6b6b;
+}
